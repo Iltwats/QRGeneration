@@ -4,18 +4,6 @@ import java.util.*;
 public class QRMain {
     public  static List<String> stringList = new ArrayList<>();
     public  static List<String> encodedText = new ArrayList<>();
-//    public static void main(String[] args) {
-////        String seedNum = "1111111111";
-////        long a = Long.parseLong(seedNum);
-////        Scanner scanner = new Scanner(System.in);
-////        long count = scanner.nextLong();
-////        for (int i = 1; i<=count; i++) {
-////           a++;
-////           addToList(a);
-////        }
-//
-//
-//    }
 
     static void encodeIt() {
         for (String a:stringList) {
